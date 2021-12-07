@@ -4,7 +4,7 @@ import GoogleMap from './components/GoogleMap';
 function App() {
   return (
     <div className="App">
-      <h1>Buscador de Google Maps</h1>
+      <h1>Buscador Google Maps</h1>
       <GoogleMap/>
     </div>
   );

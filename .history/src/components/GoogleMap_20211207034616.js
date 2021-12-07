@@ -52,7 +52,7 @@ export class MapContainer extends Component {
             <div>
               <input
                 {...getInputProps({
-                  placeholder: 'Buscar...',
+                  placeholder: 'Search Places ...',
                   className: 'location-search-input',
                 })}
               />
@@ -105,5 +105,5 @@ export class MapContainer extends Component {
 }
 
 export default GoogleApiWrapper({
-  apiKey: (process.env.REACT_APP_GOOGLE_KEY)
+  apiKey: ('AIzaSyDRfnw2-7yi0bEf2TA7I2kZ65YdMvKNz2I')
 })(MapContainer)

@@ -52,7 +52,7 @@ export class MapContainer extends Component {
             <div>
               <input
                 {...getInputProps({
-                  placeholder: 'Buscar...',
+                  placeholder: 'Buscar ...',
                   className: 'location-search-input',
                 })}
               />

@@ -18,7 +18,7 @@ export class MapContainer extends Component {
   
       mapCenter: {
         lat: 41.1333,
-        lng: 1.3833
+        lng: -123.1207375
       }
     };
   }
@@ -52,7 +52,7 @@ export class MapContainer extends Component {
             <div>
               <input
                 {...getInputProps({
-                  placeholder: 'Buscar...',
+                  placeholder: 'Search Places ...',
                   className: 'location-search-input',
                 })}
               />
@@ -105,5 +105,5 @@ export class MapContainer extends Component {
 }
 
 export default GoogleApiWrapper({
-  apiKey: (process.env.REACT_APP_GOOGLE_KEY)
+  apiKey: ('AIzaSyBLVHqBpK4pTUHkxRLctTj6a3nHrt1d-uI')
 })(MapContainer)
